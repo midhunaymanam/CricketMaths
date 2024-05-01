@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket Maths</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="main">
+       
+      <p class="head">Total Score Calculation</p>
+      <br />
+      <table class="table">
+        <tr>
+          <td>
+            <img class="dp" src="./images/dhoni2.jpeg" alt="" />&emsp;<span
+              >Dhoni &</span
+            ><br /><br />
+            <p id="number1"></p>
+          </td>
+          <td class="right1">
+            <span>Kohli</span
+            ><img class="dp" src="./images/kohli.jpeg" alt="" /><br /><br />
+            <p id="number2"></p>
+          </td>
+        </tr>
+      </table>
+      <center>
+        <form>
+          <label for="fname">Total Score:</label><br />
+          <input type="text" autocomplete="off" id="inputbox" /><br />
+        </form>
+        <br>
+        <button onclick="valuation()">Check my Answer</button>
+        <h3 id="resultAnounce"></h3>
+        <button onclick="refreshPage()">Next</button>
+        
+        
+      </center>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

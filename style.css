@@ -1,0 +1,58 @@
+.main {
+  width: 30vw;
+  height: auto;
+  background-image: linear-gradient(to bottom right, #0d47a1, black);
+  margin: auto;
+  position: relative;
+  top: 10vh;
+  padding: 2vw;
+  color: white;
+}
+body {
+    background-image: url("./images/Stadium.JPG");
+    background-repeat: no-repeat;
+  background-size:cover;
+  font-family: "Roboto", sans-serif;
+}
+.dp {
+  height: 12vw;
+  width: 10vw;
+}
+
+#number1 {
+  position:relative;
+  bottom: 0.5vw;
+  color: white;
+}
+span {
+  color: white;
+  
+}
+tr {
+  border: 2px solid white;
+}
+.right1 {
+  text-align: center;
+}
+.head {
+  font-size: 2vw;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 425px) {
+  .main {
+    width: 100vw;
+    height: 100vw;
+    padding: 4vw;
+  }
+  .dp {
+    width: 10vw;
+    height: 8vw;
+  }
+  .head {
+    font-size: 5vw;
+  }
+  
+  
+}
