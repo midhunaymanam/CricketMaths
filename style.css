@@ -1,10 +1,12 @@
 .main {
+  max-width: 800px;
+  min-width: 200px;
   width: 30vw;
-  height: auto;
+ 
   background-image: linear-gradient(to bottom right, #0d47a1, black);
   margin: auto;
   position: relative;
-  top: 10vh;
+  top: auto;
   padding: 2vw;
   color: white;
 }
@@ -13,10 +15,12 @@ body {
     background-repeat: no-repeat;
   background-size:cover;
   font-family: "Roboto", sans-serif;
+  
 }
 .dp {
   height: 12vw;
   width: 10vw;
+  
 }
 
 #number1 {
@@ -24,23 +28,25 @@ body {
   bottom: 0.5vw;
   color: white;
 }
-span {
-  color: white;
-  
-}
+
 tr {
   border: 2px solid white;
 }
 .right1 {
   text-align: center;
+  padding-left: 100px;
 }
+.left1 {
+  text-align: center;
+}
+
 .head {
   font-size: 2vw;
   text-align: center;
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 200px) {
   .main {
     width: 100vw;
     height: 100vw;
@@ -53,6 +59,11 @@ tr {
   .head {
     font-size: 5vw;
   }
+  body{
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
   
   
 }
+
